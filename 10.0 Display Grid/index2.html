@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.container{
+    height: 100vh;
+    display: grid;
+    gap: 3rem;
+    grid-template-columns:  1fr 1fr 1.5fr;
+    grid-template-rows: 1fr 1fr ;
+}
+.item-heart{
+    background-color: red;
+    display: flex;
+  justify-content: center; /* centers horizontally */
+  align-items: center;     /* centers vertically */
+  height: 100vh;    
+
+}
+.item-diamond{
+    background-color: rgba(187, 255, 0, 0.917);
+display: flex;
+  justify-content: center; /* centers horizontally */
+  align-items: center;     /* centers vertically */
+  height: 100vh;
+  border: grey; 
+  box-shadow:  4px 10px rgba(0, 0, 0, 0.25); 
+  
+}
+.item-shamrock{
+    background-color: rgb(98, 0, 255);
+    display: flex;
+  justify-content: center; /* centers horizontally */
+  align-items: center;     /* centers vertically */
+  height: 100vh; 
+  order: 2;   
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item-heart">♥︎</div>
+        <div class="item-diamond">♦︎</div>
+        <div class="item-shamrock">♣︎</div>
+    </div>
+    
+</body>
+</html>
