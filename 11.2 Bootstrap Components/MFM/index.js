@@ -11,3 +11,17 @@ console.log(doubled); // [2, 4, 6, 8]
 // You can use map() for tons of things — like changing strings to uppercase, formatting objects,
 // or anything where you need to turn one list into a new version.
 // It’s one of the most useful tools when working with arrays in JavaScript.
+var array = [];
+function fibonnaci(n) {
+  if (n === 0) {
+    array.push(n);
+    return array;
+  }
+  if (n === 1) {
+    array.push(0, n);
+    return array;
+  }
+  if (n > 1) {
+  }
+}
+console.log(fibonnaci(1));
