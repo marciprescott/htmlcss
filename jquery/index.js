@@ -10,9 +10,9 @@ $("h1").on("mouseover", function () {
 // Creating html elements
 $("h1").before("<button>NEW</button>");
 
-// $("button").on("click", function () {
-//   $("h1").fadeToggle();
-// });
+$("button").on("click", function () {
+  $("h1").fadeToggle();
+});
 $("button").on("click", function () {
   $("h1").animate({ opacity: 0.5 });
 });
