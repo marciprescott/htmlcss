@@ -1,5 +1,3 @@
-
-   $("h1").click(function () {
-     $("body").css("background-color", "purple");
-   }); 
-})
+$("h1").click(function () {
+  $("body").css("background-color", "purple");
+});
