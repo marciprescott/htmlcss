@@ -31,15 +31,16 @@ function checkAnswer(currentLevel) {
     }, 1000);
   } else {
     playWrongSound;
-    $("body").addClass("game-over");
-    setTimeout(function () {
-      $("body").removeClass("game-over");
-    }, 200);
   }
 }
 function playWrongSound() {
   var wrongAudio = new Audio("sounds/wrong.mp3");
   wrongAudio.play();
+  $("body").addClass("game-over");
+  setTimeout(function () {
+    $("body").removeClass("game-over");
+  }, 200);
+  $("h1").text("Game Over, Press Any Key to Restart");
 }
 function nextSequence() {
   userClickedPattern = [];
