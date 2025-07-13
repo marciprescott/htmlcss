@@ -1,2 +1,2 @@
 # htmlcss
-THIS IS A FILE FROM A WEB DEV COURSE 
+This repo is from Angela Yu's web dev course on Udemy.  
